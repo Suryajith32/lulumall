@@ -1,0 +1,666 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.header{
+    height: 89px;/
+}
+.back-container{
+    width: 100%;
+    height: 100%;
+}
+.logo{
+    width: 12%;
+    padding-left: 50px;
+    padding-top: 13PX;
+}
+.kochi{
+    position: absolute;
+    margin-left: 31px;
+    margin-top: -16px;
+    color: #333;
+}
+.nav-text{
+    display: flex;
+    flex-direction: row;
+     list-style: none;
+ 
+    padding-left: 327px;
+    gap: 36px;
+   margin-top: -47px;
+   font-family: sans-serif;
+   font-weight: bolder;
+   font-size: medium;
+   
+}
+.location{
+    display: flex;
+    flex-direction:  row-reverse;
+    padding-right: 145px;
+    margin-top: -27px;
+}
+.button{
+    width: 98px;
+    height: 33px;
+    border-radius: 33px;
+    border-width: 1px;
+   
+}
+.search-icon{
+  
+    width: 19px;
+ margin-bottom: 20px;
+  padding-left: 1150px;
+    margin-top: -28px;
+}
+.menu-bar{
+    width: 49px;
+    padding-left: 1199px;
+    margin-bottom: 24px;
+    margin-top: -59px
+  
+}
+.main-container{
+    width: 100%;
+    height: 584vh;
+    background: white;
+}
+.main-container-image{
+    width: 100%;
+    height: 559px;
+}
+.main-container-caption{
+    position: absolute;
+    bottom: 100px;
+    color: #fff;
+}
+.main-container-caption h1{
+    padding-bottom: 39px;
+    margin-bottom: 99px;
+    padding-left: 53px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #fff;
+    font-family: sans-serif;
+    letter-spacing: -2px;
+    
+}
+.h4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding-left: 53px;
+    padding-bottom: 7px;
+   color: #fff;
+}
+.sub-caption{
+    color: white;
+    margin-top: -226px;
+}
+.know-more{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    color: #fff;
+    padding: 10px 0;
+    transition: all .5s ease
+    
+    
+}
+.box{
+    padding-left: 53px;
+    margin-top: 31px;
+}
+.know-more::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    transition: all .2s ease;
+}
+
+.dine-container{
+    padding-left: 783px;
+    padding-top: 100px;
+    background: white;
+}
+.dine{
+    width: 83%;
+    padding-left:83px ;
+margin-top: 171px;
+}
+.fashion-container{
+    background: #cfcac7;
+    margin-top: -854px;
+    padding-left: 10px;
+    margin-right: 506px;
+    height: 854px
+}
+.fashion{
+    width: 395px ;
+    padding-top: 140px;
+    padding-left: 275px;
+}
+.dine-text{
+    font-size: 50px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 94px;
+    padding-left: 25px;
+}
+.dine-text-2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 172px;
+    padding-left: 25px;
+}
+.know-more-2{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    color: black;
+    padding: 10px 0;
+    transition: all .5s ease
+}
+.box-2{
+    position: absolute;
+    color: black;
+    padding-left:27px ;
+    margin-top: 255px;
+    text-decoration: none;
+}
+.know-more-2::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background:black;
+    height: 2px;
+    transition: all .2s ease;
+    
+}
+.fashion-text{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 177px;
+    padding-left: 40px;
+}
+.fashion-text2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:aliceblue;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 333px;
+    padding-left: 40px;
+}
+.know-more-3{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    color: #fff;
+    padding: 10px 0;
+    transition: all .5s ease
+}
+.box-3{
+    position: absolute;
+    color: #fff;
+    padding-left:40px ;
+    margin-top: 477px;
+    text-decoration: none
+}
+.know-more-3::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: white;
+    height: 2px;
+    transition: all .2s ease;
+}
+.third-container{
+    width: 100%;
+    height: 90vh;
+    background: red;
+    margin-top: 4px;
+}
+.ice-skating{
+    width: 100%;
+    height: 90vh;
+}
+.nonstop-text{
+    font-size: 50px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 196px;
+    padding-left: 53px;
+    
+}
+.nonstop-text2{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 276px;
+    padding-left: 52px;
+}
+.know-more-4{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    color: black;
+    padding: 10px 0;
+    transition: all .5s ease
+}
+.box-4{
+    position: absolute;
+    color: black;
+    padding-left:53px ;
+    margin-top: 361px;
+    text-decoration: none
+}
+.know-more-4::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    height: 2px;
+    transition: all .2s ease;
+}
+.fourth-container{
+    width: 100%;
+    height: 95vh;
+   background: aqua;
+}
+.fourth-sub-container{
+    width: 34%;
+    height: 95vh;
+    background: #fff;
+}
+.fourth-sub-container-2{
+    width: 66%;
+    height: 95vh;
+    background: white;
+    padding-left: 10px;
+    margin-top: -616px;
+    margin-left: 429px;
+}
+.h3{
+    position: absolute;
+    font-size: 38px;
+    font-weight: lighter;
+    margin-top: 128px;
+    padding-left: 53px;
+}
+.know-more-5{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    color: black;
+    padding: 10px 0;
+    transition: all .5s ease
+}
+.box-5{
+    position: absolute;
+    color: black;
+    padding-left:155px ;
+    margin-top: 220px;
+    text-decoration: none
+}
+.know-more-5::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    height: 2px;
+    transition: all .2s ease;
+}
+.know-more-6{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    color: black;
+    padding: 10px 0;
+    transition: all .5s ease
+}
+.box-6{
+    position: absolute;
+    color: black;
+    padding-left:53px ;
+    margin-top: 220px;
+    text-decoration: none
+}
+.know-more-6::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: black;
+    height: 2px;
+    transition: all .2s ease;
+}
+.fa-location-dot{
+    margin-top: 4px;
+    margin-left: -58px;
+    color: black;
+    
+}
+
+.arrow-indicator{
+    display:flex ;
+    flex-direction: row;
+    position: absolute;
+   margin-top: 300px;
+   padding-left: 99px;
+   gap: 50px;
+   color: grey;
+}
+.poster-1{
+    width: 43%;
+    padding-top: 131px;
+    margin-left: 16px;
+}
+
+.poster-2{
+    width: 43%;
+    padding-left: 28px
+}
+.day{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 42px;
+    margin-top: 13px;
+   
+}
+.date{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-top: 5px;
+    padding-left: 28px;
+}
+.event{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 117px;
+    margin-top: -42px;
+    color: grey;
+}
+.h4-h{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 118px;
+    margin-top: 8px;
+}
+.day-2{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 55px;
+    margin-top: 13px;
+}
+.date-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    margin-top: 5px;
+    padding-left: 28px;
+}
+.event-2{
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 117px;
+    margin-top: -42px;
+    color: grey;
+}
+.h4-2{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 116px;
+    margin-top: 8px; 
+}
+.card{
+    padding-left: 397px;
+    margin-top: -83px;
+}
+.fifth-container{
+    background: greenyellow;
+    width: 100%;
+    height: 90vh;
+}
+.movie{
+    height: 90vh;
+}
+.movie-caption-container{
+    position: absolute;
+    padding-left: 845px;
+    margin-top: 158px;
+}
+.pvr-cinema{
+    color: #fff;
+    font-size: 50px;
+    font-weight: lighter;
+}
+.movie-text{
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin-top: 22px;
+}
+.know-more-7{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    position: relative;
+    color: #fff;
+    padding: 10px 0;
+    transition: all .5s ease
+}
+.box-7{
+    position: absolute;
+    color: #fff;
+    padding-left:5px ;
+    margin-top: 68px;
+    text-decoration: none
+}
+.know-more-7::before{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #fff;
+    height: 2px;
+    transition: all .2s ease;
+}
+.sixth-container{
+    width: 100%;
+    height: 39vh;
+    background: #eee;;
+}
+.sixth-caption{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 162px;
+    padding-left: 142px;
+    margin-top: 73px;
+    list-style: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.download{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 162px;
+    padding-left: 817px;
+    margin-top: 73px;
+    list-style: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+.social-media{
+     font-size: 23px;
+    list-style: none;
+    position: absolute;
+    display: flex;
+    flex-direction:row;
+    gap:17px ;
+    width: 14px;
+    margin-top: 114px;
+    padding-left: 130px;
+}
+
+.email{
+    height: 42px;
+    background: #fff;
+    border-radius: 4px;
+    padding-right: 82px;
+    border: 0;
+    outline: 0;
+    color: #333;
+    font-size: 16px;
+    box-shadow: none;
+    width: 70%;
+}
+.email-container{
+    position: absolute;
+    padding-right: 484px;
+    margin-left: 393px;
+    margin-top: 111px;
+}
+.submit{
+    padding-left: 22px;
+    padding-right: 26px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+  background-color: black;
+    margin-top: 113px;
+    margin-left: 685px;
+    border-radius: 3px;
+}
+.adress{
+ font-family: Arial, Helvetica, sans-serif;
+ margin-top: -30px;
+ padding-left: 31px;
+ font-weight: lighter;
+ color: #cfcac7
+}
+.store{
+display: flex;
+flex-direction: row-reverse;
+margin-top: -43px;
+padding-right: 139px;
+}
+.play-store{
+ width: 13%;
+}
+.app-store{
+width: 13%;
+padding-right: 10px;
+}
+.seventh-container{
+    width: 100%;
+    height: 79vh;
+    background: white;
+}
+.seventh-container-text{
+    position: absolute;
+    margin-top: 62px;
+   
+    width: 80%;
+    height: 55vh;
+    margin-left: 127px;
+}
+.head-1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin-top: 10px;
+}
+.head-2{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    margin-left:338px ;
+    margin-top: -247px;
+}
+.head-3{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    margin-left:680px ;
+    margin-top: -122px;
+}
+.col-text-1{
+    margin-top: 26px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+}
+.col-text-2{
+    margin-top: -201px;
+    margin-left: 166px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;   
+}
+.col-text-3{
+    margin-top: 24px;
+    margin-left: 339px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;   
+}
+
+.col-text-4{
+    margin-top: 20px;
+    margin-left: 681px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey; 
+}
+.footer{
+    width: 125%;
+    height: 14vh;
+    background: white;
+    margin-top: 156px;
+    margin-left: -127px;
+}
+.footer-text{
+    border-width: 2px;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    gap: 236px;
+    list-style: none;
+    margin-top: 31px;
+    margin-left: 31px;
+    color: grey;
+    font-family: Arial, Helvetica, sans-serif;
+}
